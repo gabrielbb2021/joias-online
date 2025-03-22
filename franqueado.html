@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja um Franqueado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #d4af37;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #d4af37;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #c09a2a;
+        }
+        .back {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .back a {
+            text-decoration: none;
+            color: #d4af37;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Seja um Franqueado</h1>
+        <p>Faça parte da nossa rede de joalherias! Preencha o formulário abaixo para iniciar o processo de franqueamento.</p>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Nome Completo" required>
+            <input type="text" name="cpf" placeholder="CPF" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="date" name="nascimento" placeholder="Data de Nascimento" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="back">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+</body>
+</html>
